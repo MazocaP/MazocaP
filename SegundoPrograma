@@ -1,0 +1,13 @@
+package segundoprograma;
+public class SegundoPrograma {
+    public static void main(String[] args){
+        Celular cel1 = new Celular();
+        cel1.tamanho_tela = 12;
+        cel1.RAM = 4.5;
+        cel1.memoria = 120;
+        cel1.setMarca("Samsung");
+        cel1.ligado = false;
+        cel1.status();
+        
+    }
+}
